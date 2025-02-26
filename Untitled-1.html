@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Intentions Fellowship</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: white; /* White background */
+            color: maroon; /* Maroon text color */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, #800000, #f2d0a4); /* Maroon to light beige gradient */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            animation: fadeInDown 1.5s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+            animation: fadeInDown 2s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-style: italic;
+            animation: fadeInDown 2.5s ease-in-out;
+        }
+
+      /* Hero Section Styling */
+      .hero {
+        background: url('main_1.jpg') no-repeat center center/cover;
+        color: maroon;
+        text-align: center;
+        padding: 100px 20px;
+        position: relative;
+        overflow: hidden;
+        height: 100vh; /* Make the height 100% of the viewport height */
+        background-size: cover; /* Ensure the image covers the entire area */
+        background-position: center; /* Center the background image */
+        animation: fadeInUp 2s ease-in-out;
+    }
+    
+    .hero h1, .hero p, .hero {
+        animation: fadeInUp 1.5s ease-in-out;
+        position: relative;
+        left: 110px; /* Move the text 20px to the right */
+    }
+    
+        .hero a {
+            animation: bounce 2s infinite;
+            background-color: maroon;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .hero a:hover {
+            background-color: white;
+            color: maroon;
+            border: 2px solid maroon;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Container Section */
+        .container h2 {
+            border-bottom: 2px solid maroon;
+            padding-bottom: 10px;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .container p {
+            line-height: 1.6;
+            margin-top: 10px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: maroon;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li::before {
+            content: "• ";
+            color: maroon;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-15px);
+            }
+            60% {
+                transform: translateY(-8px);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to God's Intentions Fellowship</h1>
+    <p>Bringing People Closer to God</p>
+</header>
+<div class="hero">
+    <h1>Join Us in Worship</h1>
+    <p>And Experience the power of Healing, Deliverance and Prophecy </p>
+    <a href="about_us.html" class="btn btn-light btn-lg">ABOUT US</a>
+</div>
+<div class="container mt-4">
+    <h2>Mission Statement</h2>
+    <p>House of solution,Surely goodness and mercy shall follow me all the days of my life, and i will dwell in the house and i will dwell in the house of the lord forever .</p>
+</div>
+<div class="container mt-4">
+    <h2>Contact Information</h2>
+    <p><strong>Office Address:</strong> Office 703, Lottie House, along Cairo Road</p>
+    <p><strong>Church Address:</strong> Lusaka Boy's Secondary School, Longacres, Lusaka, Zambia</p>
+    <p><strong>Contact Numbers:</strong></p>
+    <ul>
+        <li>+260 0977 491 011</li>
+        <li>+260 9700 191 91</li>
+        <li>+260 738 251 44</li>
+    </ul>
+</div>
+<footer>
+    <p>&copy; 2025 God's Intentions Fellowship. All rights reserved.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
